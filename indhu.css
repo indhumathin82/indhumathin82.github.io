@@ -1,45 +1,53 @@
-
 body {
     margin: 0;
 }
-#headercheck
-{
-    background-color:skyblue;
+
+#headercheck {
+    background-color: skyblue;
 }
+
 #headercheck #title {
     margin: 0;
     text-align: center;
 }
-#bodyCheck{
+
+#bodyCheck {
     background-color: pink;
 }
+
 #subtitle {
     margin: 0;
 }
-h1{
+
+h1 {
     font-size: 100px;
 }
-img{
+
+img {
     width: 1500px;
     height: 750px;
     margin-left: 190px;
 }
-nav ul{
+
+nav ul {
     list-style: none;
     text-align: center;
 }
-nav ul li{
+
+ nav ul li {
     display: inline-block;
-    margin-left: 50px;
-    }
+    margin-left: 50px; 
+}
+
 ul li {
     list-style: none;
     font-size: 25px;
-    
 }
+
 #footer {
     height: 400px;
 }
+
 .spacing {
     display: block;
     margin-left: 100px;
@@ -47,32 +55,33 @@ ul li {
     height: 400px;
     float: left;
 }
-h3{
+
+h3 {
     font-size: 40px;
     text-align: center;
 }
-h4{
-    font-size: 30px;
 
+h4 {
+    font-size: 30px;
 }
-p{
+
+p {
     font-size: 25px;
 }
-#contactspace{
+
+#contactspace {
     margin-left: 80px;
 }
-
-
-
-
-/* .topnav input[type=text] {
+#spacing1 {
+    /* display: block; */
+    /*margin-right: 50px;*/
+    width: 20px;
     float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-  }
-  topnav input[type=text] {
-    border: 1px solid #ccc;
-  } */
+}
+
+#spacing2 {
+    display: block;
+    /* margin-center: 50px;
+    width: 200px; */
+    float: center;
+}
